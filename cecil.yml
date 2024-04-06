@@ -1,0 +1,38 @@
+# Statidocs default config
+title: Statidocs
+baseline: An effective documentation
+baseurl: /
+description: Create and manage an effective documentation.
+author:
+  name: Arnaud Ligny
+  url: https://arnaudligny.fr
+image: og-card.png
+menus:
+  navigation:
+    - id: docs
+      name: Docs
+      url: /docs/group-a/page-1 # set the default page
+    - id: about
+      name: About
+      url: /about
+sidebar: # docs groups in /pages/docs/
+  - Group A
+  - Group B
+footer: Copyright © %author%
+github:
+  repo: https://github.com/Cecilapp/statidocs
+  branch: main
+docsearch:
+  enabled: false
+  # statidocs.cecil.app
+  appId: F5QE72IRAL
+  indexName: staticecil
+  apiKey: b165b7766201deabe0be660ca0bdab94
+  insights: true
+
+# Cecil config for Statidocs
+theme:
+  - docs
+  - pwa
+serviceworker:
+  enabled: false # you should disable it locally
