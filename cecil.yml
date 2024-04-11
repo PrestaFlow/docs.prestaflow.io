@@ -16,8 +16,10 @@ menus:
       name: About
       url: /about
 sidebar: # docs groups in /pages/docs/
-  - Group A
-  - Group B
+  - title : Get started
+    icon : test
+  - title : PHP Library
+    icon : code
 footer: Copyright © %author%
 github:
   repo: https://github.com/Cecilapp/statidocs
@@ -29,10 +31,20 @@ docsearch:
   indexName: staticecil
   apiKey: b165b7766201deabe0be660ca0bdab94
   insights: true
-
 # Cecil config for Statidocs
 theme:
-  - docs
+  - prestaflow
   - pwa
 serviceworker:
   enabled: false # you should disable it locally
+# Prestaflow
+layouts:
+  extensions:
+    MyExtension: Cecil\Renderer\Extension\MyExtension
+cache:
+  enabled: false
+pages:
+  body:
+    toc: [h2, h3, h4, h5, h6]
+    highlight:
+      enabled: true    # enables code syntax highlighting (`false` by default)

@@ -2,13 +2,18 @@
 //const colors = require('tailwindcss/colors');
 
 module.exports = {
-  presets: [
-    require('./themes/docs/tailwind.preset.js')
-  ],
+  //presets: [
+  //  require('./themes/docs/tailwind.preset.js')
+  //],
   content: [
     './layouts/**/*.html.twig',
     './themes/**/layouts/**/*.html.twig',
+    'node_modules/preline/dist/*.js',
   ],
+  plugins: [
+    require('preline/plugin'),
+  ],
+  darkMode: 'class',
   // uncomment to define custom colors
   /*theme: {
     extend: {
