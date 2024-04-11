@@ -1,3 +1,3 @@
 # PrestaFlow Documentation
 
-Generated with [Cecil](https://cecil.app).
+Generated with [Cecil](https://cecil.app). 
