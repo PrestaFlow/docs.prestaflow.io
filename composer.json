@@ -1,19 +1,18 @@
 {
-  "name": "cecil/statidocs",
-  "description": "Create and manage an effective documentation.",
-  "license": "MIT",
+  "name": "prestaflow/docs",
+  "description": "PrestaFlow Documentation",
   "type": "project",
   "authors": [
     {
-      "name": "Arnaud Ligny",
-      "email": "arnaud@ligny.fr",
-      "homepage": "https://arnaudligny.fr",
+      "name": "Jonathan Danse",
+      "email": "j.danse@prestaedit.com",
+      "homepage": "https://prestaedit.github.io",
       "role": "Developer"
     }
   ],
   "require": {
-    "cecil/theme-docs": "^2.15",
-    "cecil/theme-pwa": "^2.3"
+    "cecil/theme-pwa": "^2.3",
+    "prestaflow/docs-theme": "^1.0"
   },
   "scripts": {
     "post-create-project-cmd": [
