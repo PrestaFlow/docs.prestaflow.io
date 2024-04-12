@@ -1,7 +1,7 @@
-# Statidocs default config
+# Config
 title: Statidocs
 baseline: An effective documentation
-baseurl: /
+baseurl: https://prestaflow.github.io/docs.prestaflow.io/
 description: Create and manage an effective documentation.
 author:
   name: Arnaud Ligny
@@ -22,7 +22,7 @@ sidebar: # docs groups in /pages/docs/
     icon : code
 footer: Copyright © %author%
 github:
-  repo: https://github.com/Cecilapp/statidocs
+  repo: https://github.com/PrestaFlow/docs.prestaflow.io
   branch: main
 docsearch:
   enabled: false
