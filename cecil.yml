@@ -1,11 +1,11 @@
 # Config
-title: Statidocs
-baseline: An effective documentation
-baseurl: https://prestaflow.github.io/docs.prestaflow.io/
-description: Create and manage an effective documentation.
+title: PrestaFlow
+baseline: Documentation
+baseurl: /
+description: PrestaFlow Documentation
 author:
-  name: Arnaud Ligny
-  url: https://arnaudligny.fr
+  name: Jonathan Danse
+  url: https://prestaedit.github.io
 image: og-card.png
 menus:
   navigation:

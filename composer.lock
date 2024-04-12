@@ -128,16 +128,16 @@
         },
         {
             "name": "prestaflow/docs-theme",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrestaFlow/docs-theme.git",
-                "reference": "ba25a0e527a889d9758b161e20c59c2acac4a93e"
+                "reference": "7c8e7fb9d44f9d725773ccf70ab47d61f1ec9f2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrestaFlow/docs-theme/zipball/ba25a0e527a889d9758b161e20c59c2acac4a93e",
-                "reference": "ba25a0e527a889d9758b161e20c59c2acac4a93e",
+                "url": "https://api.github.com/repos/PrestaFlow/docs-theme/zipball/7c8e7fb9d44f9d725773ccf70ab47d61f1ec9f2b",
+                "reference": "7c8e7fb9d44f9d725773ccf70ab47d61f1ec9f2b",
                 "shasum": ""
             },
             "require": {
@@ -167,9 +167,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PrestaFlow/docs-theme/issues",
-                "source": "https://github.com/PrestaFlow/docs-theme/tree/v1.0.2"
+                "source": "https://github.com/PrestaFlow/docs-theme/tree/v1.0.3"
             },
-            "time": "2024-04-12T09:25:29+00:00"
+            "time": "2024-04-12T12:11:59+00:00"
         }
     ],
     "packages-dev": [],
