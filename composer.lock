@@ -78,16 +78,16 @@
         },
         {
             "name": "cecil/theme-pwa",
-            "version": "2.3.0",
+            "version": "2.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-pwa.git",
-                "reference": "13419602013c2860e953e343f52621344af76024"
+                "reference": "31c7e01bd4aa170f3fa418499f9e7b966e9b01de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-pwa/zipball/13419602013c2860e953e343f52621344af76024",
-                "reference": "13419602013c2860e953e343f52621344af76024",
+                "url": "https://api.github.com/repos/Cecilapp/theme-pwa/zipball/31c7e01bd4aa170f3fa418499f9e7b966e9b01de",
+                "reference": "31c7e01bd4aa170f3fa418499f9e7b966e9b01de",
                 "shasum": ""
             },
             "require": {
@@ -112,7 +112,7 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/Cecilapp/theme-pwa/tree/2.3.0"
+                "source": "https://github.com/Cecilapp/theme-pwa/tree/2.7.4"
             },
             "funding": [
                 {
@@ -124,20 +124,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-03-11T00:02:00+00:00"
+            "time": "2024-04-08T22:35:31+00:00"
         },
         {
             "name": "prestaflow/docs-theme",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrestaFlow/docs-theme.git",
-                "reference": "fdbf643a349b8d6800a775e54ab8520bb424f644"
+                "reference": "157924d87963d01243f07c0ebf17fa576de68dcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrestaFlow/docs-theme/zipball/fdbf643a349b8d6800a775e54ab8520bb424f644",
-                "reference": "fdbf643a349b8d6800a775e54ab8520bb424f644",
+                "url": "https://api.github.com/repos/PrestaFlow/docs-theme/zipball/157924d87963d01243f07c0ebf17fa576de68dcc",
+                "reference": "157924d87963d01243f07c0ebf17fa576de68dcc",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
             },
             "type": "cecil-theme",
             "extra": {
-                "name": "docs",
+                "name": "prestaflow",
                 "branch-alias": {
                     "dev-master": "2.x-dev"
                 }
@@ -167,9 +167,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PrestaFlow/docs-theme/issues",
-                "source": "https://github.com/PrestaFlow/docs-theme/tree/v_1.0.0"
+                "source": "https://github.com/PrestaFlow/docs-theme/tree/v1.0.1"
             },
-            "time": "2024-04-12T05:56:52+00:00"
+            "time": "2024-04-12T06:37:01+00:00"
         }
     ],
     "packages-dev": [],
