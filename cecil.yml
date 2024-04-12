@@ -1,7 +1,7 @@
 # Config
 title: PrestaFlow
 baseline: Documentation
-baseurl: /
+baseurl: https://prestaflow.github.io/docs.prestaflow.io/
 description: PrestaFlow Documentation
 author:
   name: Jonathan Danse
