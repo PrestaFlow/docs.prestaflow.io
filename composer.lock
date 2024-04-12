@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "317fc8f4a99aa7128711a860e2c0d13e",
+    "content-hash": "e987ea28afe85f0a7d2c3c03662a8fb9",
     "packages": [
         {
             "name": "cecil/theme-installer",
@@ -125,6 +125,51 @@
                 }
             ],
             "time": "2024-03-11T00:02:00+00:00"
+        },
+        {
+            "name": "prestaflow/docs-theme",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PrestaFlow/docs-theme.git",
+                "reference": "fdbf643a349b8d6800a775e54ab8520bb424f644"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PrestaFlow/docs-theme/zipball/fdbf643a349b8d6800a775e54ab8520bb424f644",
+                "reference": "fdbf643a349b8d6800a775e54ab8520bb424f644",
+                "shasum": ""
+            },
+            "require": {
+                "cecil/theme-installer": "^1.0||^2.0"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "name": "docs",
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Jonathan Danse",
+                    "email": "j.danse@prestaedit.com",
+                    "homepage": "https://prestaedit.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PrestaFlow theme Docs",
+            "keywords": [
+                "cecil",
+                "documentation",
+                "theme"
+            ],
+            "support": {
+                "issues": "https://github.com/PrestaFlow/docs-theme/issues",
+                "source": "https://github.com/PrestaFlow/docs-theme/tree/v_1.0.0"
+            },
+            "time": "2024-04-12T05:56:52+00:00"
         }
     ],
     "packages-dev": [],
