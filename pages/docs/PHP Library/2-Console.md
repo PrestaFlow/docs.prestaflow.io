@@ -12,7 +12,7 @@ Inside the composer.json :
     },
 ```
 
-:::info
+:::tip
 There, the *./Tests* folder will contain the suites to be tested.
 :::
 
