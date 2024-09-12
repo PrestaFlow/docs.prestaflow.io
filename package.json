@@ -5,7 +5,7 @@
     "tailwindcss": "^3.4"
   },
   "scripts": {
-    "dev" : "php cecil.phar serve",
+    "dev": "php cecil.phar serve",
     "build": "curl -sSOL https://cecil.app/build.sh && bash ./build.sh",
     "tailwind": "npx tailwindcss -i ./themes/prestaflow/assets/_app.css -o ./themes/prestaflow/assets/app.css"
   },

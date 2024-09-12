@@ -24,17 +24,19 @@ class MyExtension extends AbstractExtension
       '/<h5/',
       '/<h6/',
       '/<p /',
+      '/<ul>/',
       '/PrestaFlow/',
       '#<aside class="note note-tip">([a-zA-Z0-9_\-.,;!=\r\n": <\/>]*)</aside>#'
     ];
     $replacements = [
-      '<h1 class="text-3xl font-bold dark:text-white p-4"',
-      '<h2 class="text-2xl font-bold dark:text-white p-4 underline underline-offset-4 decoration-2 decoration-sky-500"',
-      '<h3 class="text-xl font-bold dark:text-white p-6"',
-      '<h4 class="text-lg font-bold dark:text-white p-8"',
-      '<h5 class="text-base font-bold dark:text-white p-10"',
-      '<h6 class="text-base font-bold dark:text-white p-12"',
+      '<h1 class="text-3xl font-bold dark:text-white pl-4"',
+      '<h2 class="text-2xl font-bold dark:text-white pl-4 underline underline-offset-4 decoration-2 decoration-sky-500"',
+      '<h3 class="text-xl font-bold dark:text-white pl-6"',
+      '<h4 class="text-lg font-bold dark:text-white pl-8"',
+      '<h5 class="text-base font-bold dark:text-white pl-10"',
+      '<h6 class="text-base font-bold dark:text-white pl-12"',
       '<p class="text-justify text-base text-gray-800 dark:text-gray-200 p-2"',
+      '<ul class="marker:text-teal-600 list-disc ps-5 space-y-2 text-sm text-gray-600 dark:text-neutral-400">',
       '<span class="bg-clip-text bg-gradient-to-tl from-blue-400 to-teal-600 font-semibold text-transparent">PrestaFlow</span>',
       '<div class="my-4 w-full bg-white border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700" role="alert">
       <div class="flex p-4">

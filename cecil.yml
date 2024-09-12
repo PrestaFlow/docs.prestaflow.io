@@ -20,6 +20,8 @@ sidebar: # docs groups in /pages/docs/
     icon : test
   - title : PHP Library
     icon : code
+    sections:
+    - title : Console
 footer: Copyright © %author%
 github:
   repo: https://github.com/PrestaFlow/docs.prestaflow.io
