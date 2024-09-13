@@ -6,7 +6,7 @@ Document in **progress**.
 
 Inside the composer.json :
 
-```
+```javascript
     "scripts": {
         "tests": "./vendor/prestaflow/php-library/bin/prestaflow run ./Tests"
     },
