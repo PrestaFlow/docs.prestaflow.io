@@ -32,12 +32,13 @@ class MyExtension extends AbstractExtension
       '#<aside class="note note-danger">([a-zA-Z0-9_\-.,;!=\r\n": <\/>]*)</aside>#'
     ];
     $replacements = [
-      '<h1 class="text-3xl font-bold dark:text-white pl-4"',
-      '<h2 class="text-2xl font-bold dark:text-white pl-4 underline underline-offset-4 decoration-2 decoration-sky-500 p-2"',
-      '<h3 class="text-xl font-bold dark:text-white pl-6"',
-      '<h4 class="text-lg font-bold dark:text-white pl-8"',
-      '<h5 class="text-base font-bold dark:text-white pl-10"',
-      '<h6 class="text-base font-bold dark:text-white pl-12"',
+      '<h1 class="text-2xl font-bold dark:text-white pl-4 underline underline-offset-4 decoration-2 decoration-sky-500"',
+      //'<h2 class="text-2xl font-bold dark:text-white pl-4 underline underline-offset-4 decoration-2 decoration-sky-500 p-2"',
+      '<h2 class="text-xl font-bold dark:text-white pl-0 py-2"',
+      '<h3 class="text-lg font-bold dark:text-white pl-4"',
+      '<h4 class="text-md font-bold dark:text-white pl-6"',
+      '<h5 class="text-base font-bold dark:text-white pl-8"',
+      '<h6 class="text-base font-bold dark:text-white pl-10"',
       '<p class="text-justify text-base text-gray-800 dark:text-gray-200 p-2"',
       //'<p class="text-justify text-base text-gray-800 dark:text-gray-200 p-2">',
       '<ul class="marker:text-teal-600 list-disc ps-5 space-y-2 text-sm text-gray-600 dark:text-neutral-400">',

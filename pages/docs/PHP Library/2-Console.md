@@ -2,6 +2,12 @@
 Document in **progress**.
 :::
 
+## Install
+
+```composer
+    composer require prestaflow/php-library
+```
+
 ## Setup
 
 Inside the composer.json :
@@ -24,6 +30,7 @@ composer run tests
 
 ### Options
 #### Stats
+
 #### Output
 
 Available formats :
